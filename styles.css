@@ -1,0 +1,1193 @@
+*{
+    font-family: 'Crimson Pro', serif;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+body {
+	font:600 16px/18px 'Open Sans',sans-serif;
+
+       }
+        
+        .sch{
+            width: 50%;
+            height: 30px;
+        }
+        hr {
+            border: 1px solid rgba(194, 175, 175, 0.224);
+        }
+        body {
+            background:linear-gradient(rgba(254, 178, 0, 0.956), white);
+        }
+        .hero{
+            width:40%;
+            height: 59.6vh;
+            left: 0px;
+            margin-left: 0px;
+            padding: 30px;
+            position: relative;
+            /* overflow-x: hidden; */
+            top: 0px;
+            border-radius: 10px;
+            background-color: rgba(211, 210, 210, 0.174);
+        }
+        a {
+            text-decoration: none;
+            color: white;
+        }
+        #ul{
+            display: inline;
+            /* justify-content: space-around; */
+            position: relative;
+            left: 100px;
+            top: 35px;
+            color: white;
+        }
+        /* .hero > h1:hover {
+            cursor: pointer;
+        } */
+        /* ul > .icon {
+            position: relative;
+            left: 230px;
+            z-index: 40;
+            background-color: white;
+            top:600px;
+        } */
+        .ul{
+            /* display: inline; */
+            position: relative;
+            left:1130px;
+            top:0px;
+            color: rgb(255, 255, 255);
+            /* left: 320px; */
+        }
+        .ul2{
+            /* display: inline; */
+            position: relative;
+            left: 1140px;
+            /* top: 80px; */
+            color: rgb(255, 255, 255);
+            /* left: 320px; */
+        }
+        .ul, .ul2 {
+            position: relative;
+            /* top: 90px; */
+        }
+        li:hover{
+            color: rgba(117, 112, 102, 0.861);
+            cursor: pointer;
+        }
+        li{
+            display:inline;
+            padding: 80px;
+        }
+        button {
+            width: 120px;
+            height: 35px;
+            border-radius: 20px;
+            border: none;
+            position: relative;
+            top: 50px;
+            font-weight: bolder;
+
+        }
+        button:hover{
+            width: 125px;
+            height: 37px;
+            cursor: pointer;
+            background-color: black;
+            color: white;
+        }
+      .now{
+        position: relative;
+        left: 200px;
+        top: 0px;
+      }
+        .hero > p, button {
+            position: relative;
+            top: 30px;
+            left: 50px;
+            
+        }
+        .nex > .one > h2, .nex > .one > button {
+            position:relative;
+            top: 20px;
+            left: 20px;
+        }
+        h1{
+            font-size:40px;
+        }
+        span{
+            color: blue;
+            font-size: 45px;
+            position: relative;
+            left: 10px;
+        }
+        .hero_img{
+            /* background-color: rgb(255, 255, 255); */
+            width: 716px;
+            /* border: 1px solid black; */
+            height: 452px;
+            animation-name: ring;
+            animation-duration: 20s;
+            animation-iteration-count: infinite;
+            animation-delay: 0s;
+            position: absolute;
+            background-image: url(bag.jpg);
+            background-size: cover;
+            /* background-size: 3000px; */
+            background-repeat: no-repeat;
+            top: 0px;
+            left: 572px;
+            border-radius: 0px 10px 10px 0px ;
+        }
+        /* @keyframes ring {
+        0%{
+            background-image: url(ring1.jpg);
+        }            
+        34% {
+            background-image: url(ring2.jpg);
+        }
+        68%{
+            background-image: url(ring3.jpg);
+        }
+        100%{
+            background-image: url(ring4.jpg);
+        }
+        } */
+        
+        .nex{
+            display: flex;
+            height: 250px;
+            position: relative;
+            top: 40px;
+            margin: 0;
+            width: 100%;
+        }
+        .nex > .one {
+            width: 25%;
+            height: 290px;
+            color: white;
+            /* z-index: 10; */
+            /* background-color: rgb(0, 0, 0); */
+            background-size: cover;
+            animation-name: sone;
+            animation-iteration-count: infinite;
+            animation-delay: 0s;
+            background-size: cover;
+            animation-duration: 40s;
+            position: relative;
+            background-image: url(fullwear.jpg);
+        }
+        @keyframes sone {
+            0%{
+                background-image: url(blueshirt.jpg);
+            }            
+            10% {
+                background-image: url(blackshirt.jpg);
+            }
+            20%{
+                /* background-image: url(blackshirt1.jpg); */
+            }
+            30%{
+                background-image: url(greenshirt.jpg);
+            }
+            40%{
+                /* background-image: url(pureredshirt.jpg); */
+            }
+            50%{
+                /* background-image: url(fullwear.jpg); */
+            }
+            60%{
+                /* background-image: url(blackandwhiteshirt.jpg); */
+            }
+            70%{
+                background-image: url(blackwhitestrip.jpg);
+            }
+            80%{
+                background-image: url(casualwhite.jpg);
+            }
+            90%{
+                background-image: url(casualblack.jpg);
+            }
+            100%{
+                background-image: url(casualblack1.jpg);
+            }
+            }
+        .nex > .two {
+            width: 25%;
+            height: 290px;
+            color: white;
+            /* z-index: 10; */
+            /* background-color: rgb(0, 0, 0); */
+            background-size: cover;
+            animation-name: stwo;
+            animation-iteration-count: infinite;
+            animation-delay: 0s;
+            background-size: cover;
+            animation-duration: 40s;
+            position: relative;
+            background-image: url(shoe.jpg);
+        }
+        @keyframes stwo {
+            0%{
+                background-image: url(shoe.jpg);
+            }            
+            10% {
+                background-image: url(shoe30.jpg);
+            }
+            20%{
+                background-image: url(shoe29.jpg);
+            }
+            30%{
+                background-image: url(shoe10.jpg);
+            }
+            40%{
+                background-image: url(shoe11.jpg);
+            }
+            50%{
+                background-image: url(shoe20.jpg);
+            }
+            60%{
+                background-image: url(shoe21.jpg);
+            }
+            70%{
+                background-image: url(shoe14.jpg);
+            }
+            80%{
+                /* background-image: url(shoe22.jpg);
+            }
+            90%{
+                /* background-image: url(shoe19.jpg); */
+            }
+            100%{
+                /* background-image: url(shoe17.jpg); */
+            } 
+            }
+        .nex > .three {
+            width: 25%;
+            height: 290px;
+            color: white;
+            /* z-index: 10; */
+            /* background-color: rgb(0, 0, 0); */
+            animation-name: sthree;
+            animation-iteration-count: infinite;
+            animation-delay: 0s;
+            background-size: cover;
+            animation-duration: 40s;
+            position: relative;
+            background-size: cover;
+            
+            background-image: url(fullwear.jpg);
+        }
+        @keyframes sthree {
+            0%{
+                background-image: url(short.jpg);
+            }            
+            10% {
+                background-image: url(short1.jpg);
+            }
+            20%{
+                /* background-image: url(short2.jpg); */
+            }
+            30%{
+                background-image: url(short3.jpg);
+            }
+            40%{
+                /* background-image: url(short4.jpg); */
+            }
+            50%{
+                /* background-image: url(fullwear.jpg); */
+            }
+            60%{
+                background-image: url(short4.jpg);
+            }
+            70%{
+                /* background-image: url(short5.jpg); */
+            }
+            80%{
+                background-image: url(short2.jpg);
+            }
+            90%{
+                background-image: url(short5.jpg);
+            }
+            100%{
+                background-image: url(casualblack1.jpg);
+            }
+            }
+        .nex > .four{
+            width: 25%;
+            height: 290px;
+            color: white;
+            /* z-index: 10; */
+            /* background-color: rgb(0, 0, 0); */
+            animation-name:sfour;
+            animation-iteration-count: infinite;
+            animation-delay: 0s;
+            background-size: cover;
+            animation-duration: 40s;
+            position: relative;
+            background-size: cover;
+            overflow: hidden;
+            background-image: url(belt.jpg);
+        }
+        @keyframes sfour {
+            0%{
+                background-image: url(belt1.jpg);
+            }            
+            10% {
+                /* background-image: url(belt2.jpg); */
+            }
+            20%{
+                /* background-image: url(bag.jpg); */
+            }
+            30%{
+                /* background-image: url(short3.jpg); */
+            }
+            40%{
+                background-image: url(belt2.jpg);
+            }
+            50%{
+                /* background-image: url(fullwear.jpg); */
+            }
+            60%{
+                /* background-image: url(blackandwhiteshirt.jpg); */
+            }
+            70%{
+                background-image: url(belt2.jpg);
+            }
+            80%{
+                /* background-image: url(belt2.jpg); */
+            }
+            90%{
+                /* background-image: url(casualblack.jpg); */
+            }
+            100%{
+                background-image: url(bag.jpg);
+            }
+            }
+        /* .nex > .two {
+            width: 25%;
+            height: 250px;
+            background-color: black;
+            background-size: cover;
+
+            background-image: url(fullwear.jpg);
+        } */
+        h2{
+            font-size: 30px;
+        }
+        .one_img{
+            /* background-color: rgb(255, 255, 255); */
+            height: 252px;
+            background-image: url(cap1.jpg);
+            animation-name: one;
+            animation-iteration-count: infinite;
+            animation-delay: 0s;
+            background-size: cover;
+            animation-duration: 20s;
+            position: relative;
+            top: -157px;
+            overflow: hidden;
+            left: 283px;
+            width: 250px;
+        }
+        .hero_img::before {
+            background-image: linear-gradient(white, black);
+            cursor: pointer;
+        }
+       
+        
+        
+        .two_img{
+            height: 252px;
+            position: relative;
+            top: -157px;
+            left: 450px;
+            background-image: url(tap1.jpg);
+            background-size: contain;
+            animation-name: two;
+            background-repeat: no-repeat;
+            animation-duration: 20s;
+            animation-iteration-count: infinite;
+            animation-delay: 0s;
+            width: 350px;
+
+        }
+        
+        @keyframes two {
+            0%{
+                background-image: url(blueshirt.jpg);
+            }            
+            10% {
+                background-image: url(blackshirt.jpg);
+            }
+            20%{
+                /* background-image: url(blackshirt1.jpg); */
+            }
+            30%{
+                background-image: url(greenshirt.jpg);
+            }
+            40%{
+                background-image: url(pureredshirt.jpg);
+            }
+            50%{
+                /* background-image: url(fullwear.jpg); */
+            }
+            60%{
+                /* background-image: url(blackandwhiteshirt.jpg); */
+            }
+            70%{
+                background-image: url(blackwhitestrip.jpg);
+            }
+            80%{
+                background-image: url(casualwhite.jpg);
+            }
+            90%{
+                background-image: url(casualblack.jpg);
+            }
+            100%{
+                background-image: url(casualblack1.jpg);
+            }
+        }
+        .nex > .two {
+            color: white;
+        }
+        .two > button:hover {
+            border: 1px solid ;
+        }
+        .two > h2 {
+            position: relative;
+            top: 20px;
+            left: 30px;
+            width: 450px;
+        }
+        .main{
+            display: flex;
+            position: relative;
+            top: 90px;
+
+        }
+        .main > .one {
+            height: 380px;
+            border-radius: 10px;
+            background-image: url(airpod1.jpg);
+            background-size: cover;
+            animation-name: mainone;
+            animation-duration: 20s;
+            animation-iteration-count: infinite;
+            animation-delay: 0s;
+            margin: 2px;
+            width: 350px;
+            /* background-color: rgb(255, 255, 255); */
+            
+        }
+        @keyframes maintwo {
+
+        
+            0%{
+                background-image: url(blueshirt.jpg);
+            }            
+            10% {
+                background-image: url(blackshirt.jpg);
+            }
+            20%{
+                /* background-image: url(blackshirt1.jpg); */
+            }
+            30%{
+                background-image: url(greenshirt.jpg);
+            }
+            40%{
+                background-image: url(pureredshirt.jpg);
+            }
+            50%{
+                /* background-image: url(fullwear.jpg); */
+            }
+            60%{
+                /* background-image: url(blackandwhiteshirt.jpg); */
+            }
+            70%{
+                background-image: url(blackwhitestrip.jpg);
+            }
+            80%{
+                background-image: url(casualwhite.jpg);
+            }
+            90%{
+                background-image: url(casualblack.jpg);
+            }
+            100%{
+                background-image: url(casualblack1.jpg);
+            }
+        }
+        @keyframes mainthree {
+
+        
+        0%{
+            background-image: url(flash1.jpg);
+        }            
+        34% {
+            background-image: url(flash2.jpg);
+        }
+        68%{
+            background-image: url(flash3.jpg);
+        }
+        100%{
+            background-image: url(flash4.jpg);
+        }
+        }
+        @keyframes mainfour {
+
+        
+        0%{
+            background-image: url(watch1.jpg);
+        }            
+        34% {
+            background-image: url(watch2.jpg);
+        }
+        68%{
+            background-image: url(watch3.jpg);
+        }
+        100%{
+            background-image: url(watch4.jpg);
+        }
+        }
+        @keyframes mainfive {
+
+        
+        0%{
+            background-image: url(silverring1.jpg);
+        }            
+        34% {
+            background-image: url(silverring2.jpg);
+        }
+        68%{
+            background-image: url(silverring3.jpg);
+        }
+        100%{
+            background-image: url(silverring4.jpg);
+        }
+        }
+        .main > .two {
+            height: 380px;
+            border-radius: 10px;
+            background-image: url(flash1.jpg);
+            background-size: cover;
+            animation-name: mainthree;
+            animation-duration: 20s;
+            animation-iteration-count: infinite;
+            animation-delay: 0s;
+            width: 350px;
+            margin: 2px;
+            /* background-color: blue; */
+            
+        }
+        .main > .three {
+            height: 380px;
+            border-radius: 10px;
+            background-image: url(watch1.jpg);
+            background-size: cover;
+            animation-name: mainfour;
+            animation-duration: 20s;
+            animation-iteration-count: infinite;
+            animation-delay: 0s;
+            width: 350px;
+            margin: 2px;
+
+            /* background-color: blue; */
+            
+        }
+        .main > .four {
+            height: 380px;
+            border-radius: 10px;
+            width: 350px;
+            background-image: url(silverring1.jpg);
+            background-size: cover;
+            animation-name: mainfive;
+            animation-duration: 20s;
+            animation-iteration-count: infinite;
+            animation-delay: 0s;
+            margin: 2px;
+
+            /* background-color: blue; */
+            
+        }
+        .foot {
+            width: 100%;
+            height: 250px;
+            border-radius: 10px 10px 0px 0px;
+            background-color: rgb(0, 0, 0);
+            position: relative;
+            color: white;
+            top: 120px;
+            font-size: small;
+            display: flex;
+            justify-content: space-between ;
+            padding-left: 10px;
+            
+        }
+        .head {
+            width: 100.23%;
+            height: 80px;
+            border-radius: 0px 0px 35px 35px;
+            background-color: rgb(0, 0, 0);
+            position: relative;
+            top: -20px;
+            left: -8px;
+            /* overflow-y: hidden; */
+
+            margin-right: 0px;
+            /* right: -10px; */
+            
+        }
+        .ul > a {
+            color: white;
+        }
+        .input {
+            position: relative;
+            top: -84px;
+            width: 450px;
+            right: -690px;
+            height: 40px;
+            border: none;
+            color:white;
+            border-radius: 0px 20px 20px 0px;
+            background-color: rgba(255, 255, 255, 0.901);
+        }
+        .input:focus{
+            outline: none;
+            color: black;
+        }
+        #let {
+            background-color: rgba(255, 255, 255, 0.901);
+            height: 40px;
+            
+            width: 25px;
+            border-radius: 20px 0px 0px 20px;
+            position: relative;
+            top: -44px;
+            right: -665px;
+        }
+        
+        .all_search{
+            position: relative;
+            top: 120px;
+        }
+        #input {
+            width: 90px;
+            
+            left: 594px;
+            /* padding-right: 25px; */
+            height: 37px;
+            position: relative;
+            top: -85px;
+            border-radius: 30px;
+            border: none;
+            color: white;
+            font-weight: bold;
+            background-color: rgb(2, 2, 2);
+        }
+        #input:focus{
+            outline: none;
+        }
+        #sec {
+            /* overflow-x: hidden; */
+            top: -19px;
+            left: 1180px;
+            color: white;
+            /* width: 150px; */
+            position: relative;
+        }
+        #sec, #info, .ul, .ul2 {
+            font-size: 14px;
+            overflow-x: hidden;
+
+        }
+        #info {
+            color: white;
+            /* font-size: 15px; */
+            /* width: 30px; */
+            /* display: flex; */
+            position: relative;
+            left:1000px;
+            overflow-x: hidden;
+
+            /* top: 80px; */
+        }
+        #info:hover {
+            color: white;
+        }
+        #hr{
+            width: 140px;
+            transform: rotate(90deg);
+            color: white;
+            position: relative;
+            top: 50px;
+            left: 470px;
+            border: 1px solid white;
+        }
+       
+        #info > li:hover {
+            color: white;
+            cursor:default;
+        }
+        .card {
+             width: 300px;
+             margin: 10px;
+             background-color: white;
+             box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+        }
+        .first{
+            background-color: rgba(0, 0, 0, 0.383);
+            position: absolute;
+            bottom: -70px;
+            padding: 15px;
+            transition: 1s all;
+            /* left: 0; */
+            /* right: 0; */
+            overflow: hidden;
+            width: 300px;
+            color: white;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            height: 120px;
+            /* text-align: center; */
+            /* background-color:rgb(76, 216, 76); */
+            transform: translateY(130px);
+        }
+        .first:hover {
+            background: linear-gradient(rgba(255, 255, 255, 0.37), rgba(0, 0, 0, 0.37));
+            color: rgb(0, 0, 0);
+            transform: translateY(0px);
+            cursor: pointer;
+    overflow: hidden;
+
+        }
+        .burger {
+            /* cursor: pointer; */
+            display: none;
+        }
+@media screen and (max-width:600px) {
+            .hero{
+                width: 77.95%;
+            /* border: 1px solid black; */
+            height: 350px;
+            margin-left:-10px;
+            animation-name: ring;
+            margin-left: 0px;
+            animation-duration: 20s;
+            animation-iteration-count: infinite;
+            animation-delay: 0s;
+            position: relative;
+            background-image: url(bag.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            top: 0px;
+            /* left: 572px; */
+            border-radius: 0px 0px 0px 0px ;
+            }
+            .hero_img{
+                display: none;
+            }
+            .card{
+                overflow: hidden;
+            }
+            .hero > .hero > p, .hero > button {
+                z-index: 6;
+                left: 10px;
+            }
+            .hero > button {
+                position: relative;
+                left: 90px;
+                top: 50px;
+                font-size: 20px;
+                height: 45px;
+                background-color: blue;
+                width: 230px;
+            }
+            /* .head {
+                color: white;
+                
+            } */
+
+            h1{
+                color: white;
+                top: 100px;
+                font-size: 20px;
+                position: relative;
+                left: 30px;
+            }
+            span{
+                color: rgb(36, 36, 201);
+                left: -21px;
+                position: relative;
+            }
+            #input {
+                position: relative;
+                left: 289px;
+                width: 70px;
+                color: black;
+                top: -116px;
+                border-radius: 0px 20px 20px 0px;
+                height: 35px;
+                border: none;
+                /* bottom: 150px; */
+            }
+            #let {
+                position: relative;
+                left: 85px;
+                border: none;
+                top: -46px;
+
+                /* top: -25px; */
+                height: 35px;
+            }
+            #let, .input, #input {
+                display: block;
+                background-color: rgb(255, 255, 255);
+                /* right: -50px; */
+            }
+            .input{
+                position: relative;
+                left: 109px;
+                background-color: rgb(255, 255, 255);
+                top: -81px;
+                height: 35px;
+                border: none;
+                width: 180px;
+                border-radius: 0px 0px 0px 0px;
+                /* z-index: 8; */
+            }
+            nav > #ul > li {
+                display: block;
+            }
+            .ul {
+                color: white;
+                top: 15px;
+                left: 330px;
+                position: relative;
+            }
+
+            .burger{
+                z-index: 10;
+                display: block;
+                cursor: pointer;
+                /* bottom: -110px; */
+                top: 50px;
+                /* background-color: white; */
+            }
+            .head {
+                height: 70px;
+                width: 103.5%;
+                /* background-color: white; */
+                border-radius: 30px 30px 0px 0px;
+                overflow: hidden;
+
+            }
+            .head > #ul > li {
+                display: block;
+            }
+            #ul{
+                position: absolute;
+                background-color: green;
+                /* left: 0; */
+                /* right: 0; */
+                left: 600px;
+                text-align: center;
+                top: 40px;
+                clip-path: polygon(0 0, 100% 0, 0 0, 100% 0);
+                transition: 1s all;
+            }
+            .clipped{
+                clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+                transition: 1s all;
+        
+            }
+            .nex {
+                flex-wrap: wrap;
+            }
+            .nex > .one {
+                width: 33%;
+                height: 160px;
+            color: white;
+            background-size: cover;
+            animation-name: sone;
+            animation-iteration-count: infinite;
+            animation-delay: 0s;
+            background-size: cover;
+            
+            animation-duration: 40s;
+            position: relative;
+            background-image: url(fullwear.jpg);
+        }
+            .nex > .two {
+                width: 33%;
+                height: 160px;
+            color: white;
+            background-size: cover;
+            animation-name: sone;
+            box-shadow: 3px;
+            animation-iteration-count: infinite;
+            animation-delay: 0s;
+            background-size: cover;
+            animation-duration: 40s;
+            position: relative;
+            background-image: url(fullwear.jpg);
+        }
+            .nex > .three {
+                width: 33%;
+                height: 160px;
+            /* left: 0px; */
+            /* top: 20px; */
+            color: white;
+            background-size: cover;
+            animation-name: sone;
+            animation-iteration-count: infinite;
+            animation-delay: 0s;
+            background-size: cover;
+            animation-duration: 40s;
+            position: relative;
+            background-image: url(fullwear.jpg);
+        }
+            .nex > .four {
+            width: 33%;
+            height: 160px;
+            /* top: 20px; */
+            /* left: 0px; */
+            color: white;
+            background-size: cover;
+            animation-name: sone;
+            animation-iteration-count: infinite;
+            animation-delay: 0s;
+            background-size: cover;
+            animation-duration: 40s;
+            position: relative;
+            background-image: url(fullwear.jpg);
+        }
+        
+            /* @keyframes ring {
+                0%{
+                    background-image: url(whiteshoe.jpg);
+                }            
+                34% {
+                    background-image: url(belt.jpg);
+                }
+                68%{
+                    background-image: url(short1.jpg);
+                }
+                100%{
+                    background-image: url(shoe.jpg);
+                }
+                } */
+                
+            .main > .one {
+                height: 250px;
+                border-radius: 10px;
+                background-image: url(airpod1.jpg);
+                background-size: cover;
+                animation-name: mainone;
+                animation-duration: 20s;
+                animation-iteration-count: infinite;
+                animation-delay: 0s;
+                margin: 2px;
+                width: 48%;
+                /* background-color: rgb(255, 255, 255); */
+                
+            }
+            @keyframes maintwo {
+    
+            
+                0%{
+                    background-image: url(blueshirt.jpg);
+                }            
+                10% {
+                    background-image: url(blackshirt.jpg);
+                }
+                20%{
+                    /* background-image: url(blackshirt1.jpg); */
+                }
+                30%{
+                    background-image: url(greenshirt.jpg);
+                }
+                40%{
+                    background-image: url(pureredshirt.jpg);
+                }
+                50%{
+                    /* background-image: url(fullwear.jpg); */
+                }
+                60%{
+                    /* background-image: url(blackandwhiteshirt.jpg); */
+                }
+                70%{
+                    background-image: url(blackwhitestrip.jpg);
+                }
+                80%{
+                    background-image: url(casualwhite.jpg);
+                }
+                90%{
+                    background-image: url(casualblack.jpg);
+                }
+                100%{
+                    background-image: url(casualblack1.jpg);
+                }
+            }
+            @keyframes mainthree {
+    
+            
+            0%{
+                background-image: url(flash1.jpg);
+            }            
+            34% {
+                background-image: url(flash2.jpg);
+            }
+            68%{
+                background-image: url(flash3.jpg);
+            }
+            100%{
+                background-image: url(flash4.jpg);
+            }
+            }
+            @keyframes mainfour {
+    
+            
+            0%{
+                background-image: url(watch1.jpg);
+            }            
+            34% {
+                background-image: url(watch2.jpg);
+            }
+            68%{
+                background-image: url(watch3.jpg);
+            }
+            100%{
+                background-image: url(watch4.jpg);
+            }
+            }
+            @keyframes mainfive {
+    
+            
+            0%{
+                background-image: url(silverring1.jpg);
+            }            
+            34% {
+                background-image: url(silverring2.jpg);
+            }
+            68%{
+                background-image: url(silverring3.jpg);
+            }
+            100%{
+                background-image: url(silverring4.jpg);
+            }
+            }
+            .main > .two {
+                height: 250px;
+                border-radius: 10px;
+                background-image: url(flash1.jpg);
+                background-size: cover;
+                animation-name: mainthree;
+                animation-duration: 20s;
+                animation-iteration-count: infinite;
+                animation-delay: 0s;
+                width: 48%;
+                margin: 2px;
+                /* background-color: blue; */
+                
+            }
+            .main > .three {
+                height: 250px;
+                border-radius: 10px;
+                background-image: url(watch1.jpg);
+                background-size: cover;
+                animation-name: mainfour;
+                animation-duration: 20s;
+                animation-iteration-count: infinite;
+                animation-delay: 0s;
+                width: 48%;
+                margin: 2px;
+    
+                /* background-color: blue; */
+                
+            }
+            .main > .four {
+                height: 250px;
+                border-radius: 10px;
+                width: 48%;
+                background-image: url(silverring1.jpg);
+                background-size: cover;
+                animation-name: mainfive;
+                animation-duration: 20s;
+                animation-iteration-count: infinite;
+                animation-delay: 0s;
+                margin: 2px;
+    
+                /* background-color: blue; */
+                
+            }
+            .main{
+                display: flex;
+                position: relative;
+                flex-wrap: wrap;
+                top: 140px;
+            }
+            .foot {
+                width: 102.9%;
+                height: 160px;
+                border-radius: 10px 10px 0px 0px;
+                background-color: rgb(0, 0, 0);
+                position: relative;
+                top: 160px;
+                /* margin-right: -80; */
+                margin-left: -10px;
+                /* bottom: -200px; */
+                
+            }
+            .card {
+                /* width: 300px; */
+                margin: 10px;
+                
+                /* background-color: white; */
+                box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+           }
+           .second{
+                position: relative;
+                top: 139px;
+                /* left:45px ; */
+                color: black;
+                background-color: brown;
+           }
+           /* .price{
+            flex-wrap: wrap;
+           } */
+           .first{
+            display: none;}
+            /* background-color: rgba(0, 0, 0, 0.383);
+            position: absolute;
+            bottom: -70px;
+            padding: 15px;
+            transition: 1s all;
+            left: 0;
+            right: 0;
+            overflow: hidden;
+            width: 30px;
+            color: white;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            height: 20px;
+            text-align: center;
+            background-color:rgb(76, 216, 76);
+            transform: translateY(130px);
+        }*/
+        .first:hover {
+            background: linear-gradient(rgba(255, 255, 255, 0.37), rgba(0, 0, 0, 0.37));
+            color: rgb(0, 0, 0);
+            transform: translateY(0px);
+            cursor: pointer;
+            overflow: hidden;
+
+        }
+       
+}
+        /* @media screen and (max-width:800px) {
+            
+        } */

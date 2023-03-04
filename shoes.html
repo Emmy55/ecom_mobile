@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <style>
+        .head {
+            width: 100.99%;
+            height: 80px;
+            border-radius: 0px 0px 35px 35px;
+            background-color: rgb(0, 0, 0);
+            position: relative;
+            top: -20px;
+            left: -8px;
+            /* overflow-y: hidden; */
+
+            margin-right: 0px;
+            /* right: -10px; */
+            
+        }
+        li:hover{
+            color: rgba(117, 112, 102, 0.861);
+            cursor: pointer;
+        }
+        li{
+            display:inline;
+            padding: 80px;
+        }
+        #ul{
+            display: inline;
+            /* justify-content: space-around; */
+            position: relative;
+            left: 100px;
+            top: 35px;
+            color: white;
+        }
+        .box{
+            display:grid;
+            gap: 2px;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 250px 250px;
+        }
+        .one {
+            grid-column: 1/2;
+            grid-row: 1/2;
+            background-image: url(shoe.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .two {
+            grid-column: 2/3;
+            grid-row: 1/2;
+            background-image: url(shoe1.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .three {
+            grid-column: 3/4;
+            grid-row: 1/2;
+            background-image: url(shoe10.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .four {
+            grid-column: 4/5;
+            grid-row: 1/2;
+            background-image: url(shoe3.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .five {
+            grid-column: 1/2;
+            grid-row: 2/3;
+            background-image: url(shoe14.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .six {
+            grid-column: 2/3;
+            grid-row: 2/3;
+            background-image: url(shoe18.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .seven {
+            grid-column: 3/4;
+            grid-row: 2/3;
+            background-image: url(shoe6.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .eight {
+            grid-column: 4/5;
+            grid-row: 2/3;
+            background-image: url(shoe2.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .big {
+            height: 500px;
+            width: 950px;
+            padding: 40px;
+            position: relative;
+            left: 159px;
+            border-radius:20px;
+            top: -20px;
+            background-color: rgba(0, 0, 0, 0.186);
+        }
+        body {
+            background-color: rgba(0, 0, 0, 0.696);
+        }
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="head">
+        <nav>
+            <ul id="ul">
+                <a href="ecom.html"><li>Home</li></a>
+                <a href="shop.html"><li>Shop</li></a>
+                <a href="contact.html"><li>Contact</li></a>
+                <a href="about.html"><li>About</li></a>
+                <a href="enquiry.html"><li>Enquiries</li></a>
+            </ul>
+        </nav>
+    </div>
+    <div class="big">
+    <div class="box">
+        <div class="cool one"></div>
+        <div class="cool two"></div>
+        <div class="cool three"></div>
+        <div class="cool four"></div>
+        <div class="cool five"></div>
+        <div class="cool six"></div>
+        <div class="cool seven"></div>
+        <div class="cool eight"></div>
+    </div>
+</div>
+</body>
+</html>
